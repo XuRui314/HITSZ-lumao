@@ -11,7 +11,7 @@
 </p>
 
 
-# <p align="center">Campus Canteen Ordering System</p>
+# <p align="center">Lumao Manage System</p>
 
 HITSZ 2022年秋季学期「数据库设计」课程实验项目，基于 MySQL+Django 实现**撸猫管理系统**。
 

@@ -186,13 +186,13 @@ django_lumao
 
 ## 效果图 :yum:
 
-![](D:\DB\lab4\HITSZ-lumao\img\image2.png)
+![1](D:\DB\lab4\HITSZ-lumao\img\image2.png)
 
-![](D:\DB\lab4\HITSZ-lumao\img\image3.png)
+![2](D:\DB\lab4\HITSZ-lumao\img\image3.png)
 
 
 
-![](D:\DB\lab4\HITSZ-lumao\img\image5.png)
+![3](D:\DB\lab4\HITSZ-lumao\img\image5.png)
 
 
 

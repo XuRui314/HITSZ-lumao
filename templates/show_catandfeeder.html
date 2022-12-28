@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>猫和管理员</title>
+</head>
+<body>
+
+      <h1>猫猫和饲养员</h1>
+      <p style="text-align:center;" >
+
+
+    {% for manager in manager_list %}
+   ManagerName: {{ manager.manager_name }}<br/>
+    CatName: {% for cat in manager.manager_cat.all %}{{ cat.cat_name }} {% endfor %} <br/> <br/>
+
+{% endfor %}
+</p>
+</body>
+</html>

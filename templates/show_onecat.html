@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>猫咪展示</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="w3-content" style="max-width:1200px">
+
+<div class="w3-panel">
+  <i class="w3-xlarge fa fa-bars"></i>
+</div>
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+<div class="w3-half w3-container">
+  <h1 class="w3-xxlarge w3-text-grey">你好，我是</h1>
+  <h1 class="w3-jumbo">{{cat.cat_name}}</h1>
+</div>
+<div class="w3-half w3-container w3-xlarge w3-text-grey">
+  <p class="">我的性格是：{{cat.cat_character}}</p>
+  <p>我的颜色是：{{cat.cat_color}}</p>
+  <p>我的品种是：{{cat.cat_breed}}</p>
+</div>
+</div>
+
+<!-- Second Grid: Resent -->
+<div class="w3-panel w3-text-grey">
+<h4>我的照片:</h4>
+</div>
+<div class="w3-row">
+<div class="w3-half w3-container">
+  <img src="../media/{{cat.cat_photo}}" style="width:60%">
+</div>
+<div class="w3-half w3-container">
+
+  <p class="w3-xlarge w3-text-grey">
+  我经常出没在：{{cat.cat_location}}</p>
+    <p class="w3-xlarge w3-text-grey">
+  我喜欢的食物有：{{cat.cat_food}}</p>
+
+</div>
+</div>
+
+
+
+</body>
+</html>

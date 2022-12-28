@@ -1,0 +1,26 @@
+{% extends 'cat/cat_base.html' %}
+
+{% block store_content %}
+<div>
+    <div class="container">
+        <div class="row">
+            {% for i in cat_list %}
+            <div class="col-lg-4 d-flex align-items-stretch">
+                <div class="card cardmodify cardbackground" style="width: 18rem;">
+                    <div class="card-header">
+                        <h5><b>{{ i.cat_name }}</b></h5>
+                    </div>
+                    <img class="card-img-top" src="{{ i.cat_photo.url }}" alt="Card image cap" height="180px" width="320px">
+                    <div class="card-header" float="left">
+                        <h5><b>{{ i.canteen_active }}</b></h5>
+                        <h5><b>猫咪信息：{{ i.sanitation_level }}</b></h5>
+                        <a href="/onecat?id={{i.cat_id}}" class="btn btn-success btn-sm addtocartbutton"><font size="3px">查看</font></a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+{% endblock %}

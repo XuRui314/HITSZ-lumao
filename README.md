@@ -186,13 +186,13 @@ django_lumao
 
 ## 效果图 :yum:
 
-![1](.\img\image2.png)
+![1](https://github.com/XuRui314/HITSZ-lumao\img\image2.png)
 
-![2](.\img\image3.png)
+![2](https://github.com/XuRui314/HITSZ-lumao\img\image3.png)
 
 
 
-![3](.\img\image5.png)
+![3](https://github.com/XuRui314/HITSZ-lumao\img\image5.png)
 
 
 

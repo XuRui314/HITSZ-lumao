@@ -173,26 +173,30 @@ django_lumao
 
    - 项目参数修改：打开 settings.py 配置文件，找到 MySQL 自定义参数，修改为你自己的配置
 
-4. 项目启动，进入项目 `django_CCOS` 目录，执行：
+3. 项目启动，进入项目 `django_CCOS` 目录，执行：
    - `python manage.py makemigrations`
    - `python manage.py migrate`
    - `python manage.py runserver`
-   
-5. 前端访问：http://127.0.0.1:8000
+
+4. 前端访问：http://127.0.0.1:8000
 
 5. 后台访问：http://127.0.0.1:8000/admin
    - 创建管理员：`python manage.py createsuperuser`
    - 自行添加食堂、窗口、菜品，否则初始不显示
 
-## 效果图 :yum:
-
-![](.\img\image2.png)
-
-![](.\img\image3.png)
+## 效果图 
 
 
 
-![](.img\image5.png)
+<div align="center">
+	<img src="img/image2.png" alt="管理员模块" align="center" width=80% />
+	<img src="img/image3.png" alt="用户模块" align="center" width=80% />
+    <img src="img/image5.png" alt="用户模块" align="center" width=80% />
+</div>
+
+
+
+
 
 
 

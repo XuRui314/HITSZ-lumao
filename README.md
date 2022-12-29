@@ -41,22 +41,19 @@ django_lumao
 ├── blog
 │   ├── __init__.py
 │   ├── __pycache__
-│   │   ├── __init__.cpython-39.pyc
-│   │   ├── admin.cpython-39.pyc
-│   │   ├── apps.cpython-39.pyc
-│   │   ├── forms.cpython-39.pyc
-│   │   ├── models.cpython-39.pyc
-│   │   ├── urls.cpython-39.pyc
-│   │   └── views.cpython-39.pyc
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── forms.py
+│   │   ├── models.py
+│   │   ├── urls.py
+│   │   └── views.py
 │   ├── admin.py
 │   ├── apps.py
 │   ├── forms.py
 │   ├── migrations
 │   │   ├── 0001_initial.py
 │   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       ├── 0001_initial.cpython-39.pyc
-│   │       └── __init__.cpython-39.pyc
 │   ├── models.py
 │   ├── tests.py
 │   ├── urls.py
@@ -64,20 +61,17 @@ django_lumao
 ├── cat
 │   ├── __init__.py
 │   ├── __pycache__
-│   │   ├── __init__.cpython-39.pyc
-│   │   ├── admin.cpython-39.pyc
-│   │   ├── apps.cpython-39.pyc
-│   │   ├── models.cpython-39.pyc
-│   │   ├── urls.cpython-39.pyc
-│   │   └── views.cpython-39.pyc
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── urls.py
+│   │   └── views.py
 │   ├── admin.py
 │   ├── apps.py
 │   ├── migrations
 │   │   ├── 0001_initial.py
 │   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       ├── 0001_initial.cpython-39.pyc
-│   │       └── __init__.cpython-39.pyc
 │   ├── models.py
 │   ├── tests.py
 │   ├── urls.py
@@ -85,11 +79,6 @@ django_lumao
 ├── db.sqlite3
 ├── django_lumao
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-39.pyc
-│   │   ├── settings.cpython-39.pyc
-│   │   ├── urls.cpython-39.pyc
-│   │   └── wsgi.cpython-39.pyc
 │   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
@@ -133,23 +122,12 @@ django_lumao
 │       └── show_info.html
 └── user
     ├── __init__.py
-    ├── __pycache__
-    │   ├── __init__.cpython-39.pyc
-    │   ├── admin.cpython-39.pyc
-    │   ├── apps.cpython-39.pyc
-    │   ├── forms.cpython-39.pyc
-    │   ├── models.cpython-39.pyc
-    │   ├── urls.cpython-39.pyc
-    │   └── views.cpython-39.pyc
     ├── admin.py
     ├── apps.py
     ├── forms.py
     ├── migrations
     │   ├── 0001_initial.py
     │   ├── __init__.py
-    │   └── __pycache__
-    │       ├── 0001_initial.cpython-39.pyc
-    │       └── __init__.cpython-39.pyc
     ├── models.py
     ├── tests.py
     ├── urls.py
